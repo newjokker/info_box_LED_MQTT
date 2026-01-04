@@ -8,8 +8,10 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2);  // I2C地址0x27，16列2行
 
 // WiFi配置
-const char* ssid = "LDQ-AP";
-const char* password = "747225581";
+// const char* ssid = "LDQ-AP";
+// const char* password = "747225581";
+const char* ssid = "Saturn-Guest-2.4g";
+const char* password = "Tuxingkeji-0918";
 
 // MQTT配置
 const char* mqtt_server = "8.153.160.138";

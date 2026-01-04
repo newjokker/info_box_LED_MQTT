@@ -13,7 +13,7 @@ client.connect(broker, port, 60)
 
 # 发送消息到LCD屏幕
 # 格式: "第一行内容|第二行内容"
-message = "Hello World! | New Word"
+message = "Hello World! | just do it"
 
 # 发布消息
 client.publish(topic, message)
